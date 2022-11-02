@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atribut Javasricpt</title>
+	
+</head>
+<body>
+	<button onclick="alert('hooh tenan')">
+		Klik Aku donk
+	</button>
+	<select id="affah kh rill">
+		<option value="Rahmat">Terkadang</option>
+		<option value="Samsudin">Hooh Tenan</option>
+	</select>
+	<script>
+	 const select= document.getElementById('affah kh rill');
+	 select.addEventListener('change',function(){
+	 	console.log(select.value);
+	 	if (select.value == 'Rahmat'){
+	 		alert('Terkadang')
+	 	}   else if (select.value == 'Samsudin'){
+	 		alert('Hooh Tenan')
+	 	}  
+	 })
+	</script>
+
+</body>
+</html>

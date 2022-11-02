@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+</head>
+    <body><center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label for="">Pilih Warna : </label>
+        <select id="select-color">
+            <option value="#2196F3">Blue</option>
+            <option value="#FFC107">Yellow</option>
+            <option value="#4CAF50">Green</option>
+            <option value="#E91E63">Pink</option>
+            <option value="#9E9E9E">Grey</option>
+            <option value="#9C27B0">Purple</option>
+        </center>
+        </select>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#select-color").change(function(){
+        var selectedcolor = $('#select-color').val();  
+        $("body").css({"background-color": selectedcolor});
+    });
+});
+</script>
+</body>
+</html>

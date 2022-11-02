@@ -1,0 +1,88 @@
+.navigasi{
+	background-color:slategrey;
+	color:white;
+	font-size: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+.navigasi li{
+	float: left;
+	margin-left:350px;
+	font-size:85px;
+
+}
+.gambar{
+	width: 500px;
+	border-radius: 450px;
+}
+.p1{
+	font-size: 70px;
+	font-family: agency FB;
+}
+.gambar1{
+	width: 500px;
+	height: 1000px;
+	border-radius: 50px;
+	margin-left:150px;
+	border: 10px solid black;
+
+}
+.gambar1:hover{
+	transform: scale(1.1);
+
+}
+.p2{
+	background-color: slategrey;
+	font-size: 80px;
+	color: 	white;
+	font-family:agency FB;
+}
+.p3{
+	background-color: green;
+}
+
+.p4{
+	font-size: 80px;
+	text-align: center;
+
+}
+.ft1{
+	border-radius:1000px;
+	margin-left:155px
+	height:25px;
+}
+
+.p4{
+	font-family:agency FB;
+}
+.sosmed{
+	width: 70px;
+	height: 70px;
+	margin-left: 15px;
+}
+.kata1{
+	font-size: 70px;
+	font-family:agency FB;
+}
+.bapak{
+	background-color: grey;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+
+}
+.bapak2{
+	background-color: lightgrey;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ td{
+ 	padding: 5px;
+ }
+ a:hover{
+ 	color:black;
+ 	background-color: white;
+ }
+ .cp1{
+ 	text-align: center;
+ }

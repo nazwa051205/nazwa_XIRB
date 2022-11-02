@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganjil Genap </title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>MENENTUKAN BILANGAN GANJIL DAN GENAP</h2>
+<!--bilangan yang akan dicek-->
+<p>
+    bilangan <input type="number" id="my number">
+    <button onclick="cek()">cek</button>
+</p>
+<p id="demo"></p>
+<script>
+    //perhitungan dan pengecekan hasil modulo function//
+    function cek() {
+        var bil = document.getElementById("my number").value
+        if(bil%2==0) {
+            document.getElementById("demo").innerText = "BILANGAN GENAP";
+        } else {
+            document.getElementById("demo").innerText = "BILANGAN GANJIL";
+        }
+    }
+</script>
+</body>
+</html>
